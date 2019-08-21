@@ -11347,8 +11347,8 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <attribute name="VALUE" x="364.49" y="146.558" size="1.778" layer="96"/>
 </instance>
 <instance part="R1" gate="G$1" x="236.22" y="132.08" smashed="yes">
-<attribute name="NAME" x="232.41" y="133.5786" size="1.778" layer="95"/>
-<attribute name="VALUE" x="232.41" y="128.778" size="1.778" layer="96"/>
+<attribute name="NAME" x="229.87" y="131.0386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="234.95" y="133.858" size="1.778" layer="96"/>
 </instance>
 <instance part="R10" gate="G$1" x="119.38" y="93.98" smashed="yes">
 <attribute name="NAME" x="115.57" y="95.4786" size="1.778" layer="95"/>
@@ -11484,8 +11484,8 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <net name="GND" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="GND"/>
-<wire x1="226.06" y1="111.76" x2="246.38" y2="111.76" width="0.1524" layer="91"/>
-<label x="241.3" y="111.76" size="1.778" layer="95"/>
+<wire x1="226.06" y1="111.76" x2="248.92" y2="111.76" width="0.1524" layer="91"/>
+<label x="243.84" y="111.76" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="SERIAL_PORT" gate="A" pin="1"/>
@@ -11656,10 +11656,10 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <pinref part="U1" gate="G$1" pin="RXD0"/>
 <wire x1="226.06" y1="134.62" x2="233.68" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="134.62" x2="233.68" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="233.68" y1="137.16" x2="238.76" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="137.16" x2="238.76" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="134.62" x2="246.38" y2="134.62" width="0.1524" layer="91"/>
-<label x="241.3" y="134.62" size="1.778" layer="95"/>
+<wire x1="233.68" y1="137.16" x2="241.3" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="137.16" x2="241.3" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="134.62" x2="248.92" y2="134.62" width="0.1524" layer="91"/>
+<label x="243.84" y="134.62" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="SERIAL_PORT" gate="A" pin="3"/>
@@ -11676,8 +11676,8 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 </net>
 <net name="TX0" class="0">
 <segment>
-<wire x1="241.3" y1="132.08" x2="246.38" y2="132.08" width="0.1524" layer="91"/>
-<label x="241.3" y="132.08" size="1.778" layer="95"/>
+<wire x1="241.3" y1="132.08" x2="248.92" y2="132.08" width="0.1524" layer="91"/>
+<label x="243.84" y="132.08" size="1.778" layer="95"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 </segment>
 <segment>
@@ -11708,12 +11708,12 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <pinref part="U1" gate="G$1" pin="SCK/CLK"/>
 <wire x1="226.06" y1="137.16" x2="231.14" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="137.16" x2="231.14" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="139.7" x2="241.3" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="139.7" x2="241.3" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="137.16" x2="246.38" y2="137.16" width="0.1524" layer="91"/>
-<label x="241.3" y="137.16" size="1.778" layer="95"/>
+<wire x1="231.14" y1="139.7" x2="243.84" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="139.7" x2="243.84" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="137.16" x2="248.92" y2="137.16" width="0.1524" layer="91"/>
+<label x="243.84" y="137.16" size="1.778" layer="95"/>
 <wire x1="231.14" y1="139.7" x2="231.14" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="142.24" x2="246.38" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="142.24" x2="248.92" y2="142.24" width="0.1524" layer="91"/>
 <junction x="231.14" y="139.7"/>
 <label x="241.3" y="142.24" size="1.778" layer="95"/>
 </segment>
@@ -11751,6 +11751,11 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <label x="259.08" y="129.54" size="1.778" layer="95"/>
 <pinref part="C4" gate="G$1" pin="2"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="IO35"/>
+<wire x1="226.06" y1="129.54" x2="248.92" y2="129.54" width="0.1524" layer="91"/>
+<label x="243.84" y="129.54" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="GAIN" class="0">
 <segment>
@@ -11760,7 +11765,7 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="IO34"/>
-<wire x1="226.06" y1="127" x2="246.38" y2="127" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="127" x2="248.92" y2="127" width="0.1524" layer="91"/>
 <label x="241.3" y="127" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -12166,7 +12171,7 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <net name="MOSI" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="SDI/SD1"/>
-<wire x1="226.06" y1="147.32" x2="246.38" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="147.32" x2="248.92" y2="147.32" width="0.1524" layer="91"/>
 <label x="241.3" y="147.32" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -12188,7 +12193,7 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <net name="MISO" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="SDO/SD0"/>
-<wire x1="226.06" y1="149.86" x2="246.38" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="149.86" x2="248.92" y2="149.86" width="0.1524" layer="91"/>
 <label x="241.3" y="149.86" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -12207,7 +12212,8 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <pinref part="U1" gate="G$1" pin="SCS/CMD"/>
 <wire x1="226.06" y1="139.7" x2="228.6" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="139.7" x2="228.6" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="228.6" y1="144.78" x2="246.38" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="144.78" x2="231.14" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="144.78" x2="248.92" y2="144.78" width="0.1524" layer="91"/>
 <label x="241.3" y="144.78" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -12226,6 +12232,11 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <junction x="264.16" y="12.7"/>
 <pinref part="C8" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="IO27"/>
+<wire x1="226.06" y1="119.38" x2="248.92" y2="119.38" width="0.1524" layer="91"/>
+<label x="241.3" y="119.38" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="OUTB" class="0">
 <segment>
@@ -12239,7 +12250,7 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="IO26"/>
-<wire x1="226.06" y1="116.84" x2="246.38" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="116.84" x2="248.92" y2="116.84" width="0.1524" layer="91"/>
 <label x="241.3" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -12289,7 +12300,7 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="IO33"/>
-<wire x1="226.06" y1="124.46" x2="246.38" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="124.46" x2="248.92" y2="124.46" width="0.1524" layer="91"/>
 <label x="236.22" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -12301,7 +12312,7 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="IO32"/>
-<wire x1="226.06" y1="121.92" x2="246.38" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="121.92" x2="248.92" y2="121.92" width="0.1524" layer="91"/>
 <label x="236.22" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -12324,13 +12335,6 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <pinref part="U1" gate="G$1" pin="IO5"/>
 <wire x1="195.58" y1="142.24" x2="180.34" y2="142.24" width="0.1524" layer="91"/>
 <label x="177.8" y="142.24" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="OUT_A" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="IO27"/>
-<wire x1="226.06" y1="119.38" x2="246.38" y2="119.38" width="0.1524" layer="91"/>
-<label x="241.3" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SD_CS" class="0">
