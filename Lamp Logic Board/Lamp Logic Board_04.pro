@@ -1,25 +1,25 @@
 EAGLE AutoRouter Statistics:
 
-Job           : C:/Users/monke/Documents/EAGLE/projects/RGB-Empire/Lamp Logic Board/Lamp Logic Board.brd
+Job           : C:/Users/pikipupiba/Documents/EAGLE/projects/RGB-PCB-master/Lamp Logic Board/Lamp Logic Board.brd
 
-Start at      : 02:31:26 (8/21/2019)
-End at        : 02:31:31 (8/21/2019)
-Elapsed time  : 00:00:03
+Start at      : 00:46:53 (8/22/2019)
+End at        : 00:47:00 (8/22/2019)
+Elapsed time  : 00:00:02
 
-Signals       :    63   RoutingGrid: 12.5 mil  Layers: 2
-Connections   :   133   predefined:  0 ( 0 Vias )
+Signals       :    65   RoutingGrid: 19.685 mil  Layers: 2
+Connections   :   145   predefined:  0 ( 0 Vias )
 
-Router memory :   314600
+Router memory :   82320
 
 Passname          :    Busses     Route Optimize1 Optimize2 Optimize3 Optimize4
 
-Time per pass     :  00:00:00  00:00:01  00:00:00  00:00:01  00:00:01  00:00:00
-Number of Ripups  :         0         0         0         0         0         0
+Time per pass     :  00:00:00  00:00:01  00:00:00  00:00:00  00:00:01  00:00:00
+Number of Ripups  :         0         7         0         0         0         0
 max. Level        :         0         1         0         0         0         0
-max. Total        :         0         0         0         0         0         0
+max. Total        :         0        44         0         0         0         0
 
-Routed            :        25       128       128       128       128       128
-Vias              :         0       175        95        77        73        70
-Resolution        :    18.8 %    96.2 %    96.2 %    96.2 %    96.2 %    96.2 %
+Routed            :        19       138       138       138       138       138
+Vias              :         0       143        81        74        67        66
+Resolution        :    13.1 %    95.2 %    95.2 %    95.2 %    95.2 %    95.2 %
 
 Final             : 
