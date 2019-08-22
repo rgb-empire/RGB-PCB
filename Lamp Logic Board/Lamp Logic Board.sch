@@ -11766,11 +11766,6 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <wire x1="424.18" y1="121.92" x2="447.04" y2="121.92" width="0.1524" layer="91"/>
 <label x="441.96" y="121.92" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="U1" gate="G$1" pin="IO34"/>
-<wire x1="210.82" y1="109.22" x2="233.68" y2="109.22" width="0.1524" layer="91"/>
-<label x="226.06" y="109.22" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="N$3" class="0">
 <segment>
@@ -11805,9 +11800,9 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <label x="335.28" y="106.68" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="IO4"/>
-<wire x1="180.34" y1="127" x2="165.1" y2="127" width="0.1524" layer="91"/>
-<label x="165.1" y="127" size="1.778" layer="95"/>
+<pinref part="U1" gate="G$1" pin="IO34"/>
+<wire x1="210.82" y1="109.22" x2="233.68" y2="109.22" width="0.1524" layer="91"/>
+<label x="218.44" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -12433,6 +12428,12 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <wire x1="353.06" y1="35.56" x2="370.84" y2="35.56" width="0.1524" layer="91"/>
 <label x="360.68" y="35.56" size="1.778" layer="95"/>
 <pinref part="U$3" gate="A" pin="CLK"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="IO4"/>
+<wire x1="180.34" y1="127" x2="165.1" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

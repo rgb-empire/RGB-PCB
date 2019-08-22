@@ -12232,6 +12232,11 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <junction x="264.16" y="12.7"/>
 <pinref part="C8" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="IO27"/>
+<wire x1="226.06" y1="119.38" x2="248.92" y2="119.38" width="0.1524" layer="91"/>
+<label x="241.3" y="119.38" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="OUTB" class="0">
 <segment>
@@ -12330,13 +12335,6 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <pinref part="U1" gate="G$1" pin="IO5"/>
 <wire x1="195.58" y1="142.24" x2="180.34" y2="142.24" width="0.1524" layer="91"/>
 <label x="177.8" y="142.24" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="OUT_A" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="IO27"/>
-<wire x1="226.06" y1="119.38" x2="248.92" y2="119.38" width="0.1524" layer="91"/>
-<label x="241.3" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SD_CS" class="0">
