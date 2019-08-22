@@ -82,6 +82,10 @@
 <pad name="6" x="12.7" y="0" drill="0.7" shape="octagon"/>
 <pad name="7" x="15.24" y="0" drill="0.7" shape="octagon"/>
 <pad name="8" x="17.78" y="0" drill="0.7" shape="octagon"/>
+<pad name="HOLE2" x="11.43" y="2.54" drill="2"/>
+<pad name="HOLE3" x="19.05" y="2.54" drill="2"/>
+<pad name="HOLE6" x="19.05" y="-7.62" drill="2"/>
+<pad name="HOLE5" x="11.43" y="-7.62" drill="2"/>
 <wire x1="-1.27" y1="-6.35" x2="19.05" y2="-6.35" width="0.127" layer="21"/>
 <wire x1="19.05" y1="-6.35" x2="19.05" y2="1.27" width="0.127" layer="21"/>
 <wire x1="19.05" y1="1.27" x2="-1.27" y2="1.27" width="0.127" layer="21"/>
@@ -103,6 +107,8 @@
 <pad name="23" x="15.24" y="-5.08" drill="0.7" shape="octagon"/>
 <pad name="24" x="17.78" y="-5.08" drill="0.7" shape="octagon"/>
 <text x="20.32" y="-1.27" size="1.27" layer="25">&gt;NAME</text>
+<pad name="HOLE1" x="3.81" y="2.54" drill="2"/>
+<pad name="HOLE4" x="3.81" y="-7.62" drill="2"/>
 </package>
 </packages>
 <symbols>
@@ -143,7 +149,13 @@
 <wire x1="10.16" y1="-30.48" x2="5.08" y2="-30.48" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-30.48" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<pin name="HOLE1" x="48.26" y="-10.16" length="middle" rot="R180"/>
+<pin name="HOLE2" x="48.26" y="-12.7" length="middle" rot="R180"/>
 <text x="55.88" y="15.24" size="1.27" layer="95">&gt;NAME</text>
+<pin name="HOLE3" x="48.26" y="-15.24" length="middle" rot="R180"/>
+<pin name="HOLE4" x="48.26" y="-20.32" length="middle" rot="R180"/>
+<pin name="HOLE5" x="48.26" y="-22.86" length="middle" rot="R180"/>
+<pin name="HOLE6" x="48.26" y="-25.4" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -178,6 +190,12 @@
 <connect gate="G$1" pin="7" pad="7"/>
 <connect gate="G$1" pin="8" pad="8"/>
 <connect gate="G$1" pin="9" pad="9"/>
+<connect gate="G$1" pin="HOLE1" pad="HOLE1"/>
+<connect gate="G$1" pin="HOLE2" pad="HOLE2"/>
+<connect gate="G$1" pin="HOLE3" pad="HOLE3"/>
+<connect gate="G$1" pin="HOLE4" pad="HOLE4"/>
+<connect gate="G$1" pin="HOLE5" pad="HOLE5"/>
+<connect gate="G$1" pin="HOLE6" pad="HOLE6"/>
 </connects>
 <technologies>
 <technology name=""/>

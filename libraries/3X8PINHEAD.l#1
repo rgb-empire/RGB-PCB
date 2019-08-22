@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -143,7 +143,13 @@
 <wire x1="10.16" y1="-30.48" x2="5.08" y2="-30.48" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-30.48" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="5.08" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<pin name="HOLE1" x="48.26" y="-10.16" length="middle" rot="R180"/>
+<pin name="HOLE2" x="48.26" y="-12.7" length="middle" rot="R180"/>
 <text x="55.88" y="15.24" size="1.27" layer="95">&gt;NAME</text>
+<pin name="HOLE3" x="48.26" y="-15.24" length="middle" rot="R180"/>
+<pin name="HOLE4" x="48.26" y="-20.32" length="middle" rot="R180"/>
+<pin name="HOLE5" x="48.26" y="-22.86" length="middle" rot="R180"/>
+<pin name="HOLE6" x="48.26" y="-25.4" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
