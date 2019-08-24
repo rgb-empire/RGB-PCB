@@ -10088,10 +10088,7 @@ Source: http://cache.national.com/ds/LM/LM50.pdf</description>
 <pad name="1" x="-2.4892" y="7.874" drill="0.9906" diameter="1.4986"/>
 <pad name="3" x="0" y="7.874" drill="0.9906" diameter="1.4986"/>
 <pad name="2" x="2.4892" y="7.874" drill="0.9906" diameter="1.4986"/>
-<smd name="6" x="-5.6007" y="15.3543" dx="1.8034" dy="2.5908" layer="1"/>
-<smd name="7" x="5.6007" y="15.3543" dx="1.8034" dy="2.5908" layer="1"/>
 <wire x1="-6.35" y1="6.8072" x2="6.35" y2="6.8072" width="0.1524" layer="39"/>
-<wire x1="6.35" y1="6.8072" x2="6.35" y2="25.0952" width="0.1524" layer="39"/>
 <wire x1="6.35" y1="25.0952" x2="-6.35" y2="25.0952" width="0.1524" layer="39"/>
 <wire x1="-6.35" y1="25.0952" x2="-6.35" y2="6.8072" width="0.1524" layer="39"/>
 <polygon width="0.1524" layer="39">
@@ -10109,7 +10106,7 @@ Source: http://cache.national.com/ds/LM/LM50.pdf</description>
 <wire x1="3.2258" y1="8.7376" x2="5.9944" y2="8.7376" width="0.1524" layer="21"/>
 <wire x1="-5.9944" y1="13.716" x2="-5.9944" y2="8.7376" width="0.1524" layer="21"/>
 <wire x1="5.9944" y1="16.9926" x2="5.9944" y2="22.7076" width="0.1524" layer="21"/>
-<text x="-3.0734" y="15.0368" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
+<text x="-1.8034" y="15.0368" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
 <wire x1="-1.8542" y1="8.8392" x2="-2.4892" y2="7.5692" width="0.1524" layer="51"/>
 <wire x1="-3.1242" y1="8.8392" x2="-2.4892" y2="7.5692" width="0.1524" layer="51"/>
 <wire x1="-5.842" y1="8.8392" x2="5.842" y2="8.8392" width="0.1524" layer="51"/>
@@ -10120,6 +10117,8 @@ Source: http://cache.national.com/ds/LM/LM50.pdf</description>
 <wire x1="-0.254" y1="15.7226" x2="0.254" y2="15.7226" width="0.1524" layer="23"/>
 <wire x1="0" y1="15.4686" x2="0" y2="15.9766" width="0.1524" layer="23"/>
 <text x="-3.2766" y="7.2136" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<rectangle x1="-6.5024" y1="14.0589" x2="-4.699" y2="16.6497" layer="46"/>
+<rectangle x1="4.699" y1="14.0589" x2="6.5024" y2="16.6497" layer="46"/>
 </package>
 </packages>
 <symbols>

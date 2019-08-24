@@ -11468,6 +11468,11 @@ Series VA/VS Type V, 6.3 mm dia, grid 0.0125 inch</description>
 <wire x1="424.18" y1="121.92" x2="447.04" y2="121.92" width="0.1524" layer="91"/>
 <label x="441.96" y="121.92" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="IO26"/>
+<wire x1="210.82" y1="99.06" x2="233.68" y2="99.06" width="0.1524" layer="91"/>
+<label x="223.52" y="99.06" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="N$3" class="0">
 <segment>
